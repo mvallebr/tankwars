@@ -1,0 +1,9 @@
+Este projeto era um demo para o projeto gamesnow, um curso de desenvolvimento de jogos online open source que tentei criar quando estava na faculdade...
+
+É possivel que a página ainda exista: http://gamesnow.sf.net
+
+Compile e instale a libgnow antes de roda o tankwars. 
+Para isso, logue como root e digite
+"make libgnow"
+Em seguida, digite make tank 
+(pode ser como usuário normal) para compilar o tankwars. 

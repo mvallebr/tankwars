@@ -1,0 +1,5 @@
+Logue como root (não com o su) e digite
+"make x11 && make install & ldconfig && make clean"
+e a lib será instalada automaticamente.
+Caso você não tenha acesso de root e queira usar a lib, adicione o diretório onde a lib está intalada na variável de ambiente LD_LIBRARY_PATH. Por exemplo, se a lib estiver instalada no diretório /home/seunome/libgnow e você estiver usando o bash como shell, basta digitar a seguinte linha: "export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/seunome/libgnow/:"
+
